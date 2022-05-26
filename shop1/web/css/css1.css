@@ -1,0 +1,201 @@
+body{
+	background: #F5F5F5;
+}
+.navg{
+	height: 75px;
+}
+.head{
+	display: flex;
+	background-color: rgb(38,188,213);
+	height: 75px;
+	justify-content: center;
+}
+.head a{
+	display: block;
+	width: 170px;
+	text-align: center;
+	line-height: 75px;
+	color: #FFFFFF;
+	font-size: 20px;
+	transition:all 0.5s;
+}
+.head a:hover{
+	color: #BBB;
+	background-color: rgba(38,188,213,0.6);
+}
+.user0{
+	margin-left: 300px;
+}
+.user{
+	padding-left: 20px;
+	width: 200px;
+	font-size: 20px;
+	border-radius: 30px;
+	background-color: rgb(49,199,225);
+}
+.user a:hover{
+	background-color: rgb(49,199,225);
+}
+.submenu{
+	background: rgba(38,188,213,0.6);
+	position: absolute;
+	z-index: 2;
+	color: #000000;
+	top:75px;
+	width: 170px;
+	display: none;
+}
+.submenu.show{
+	display: block;
+	transform-origin: top center;
+	animation: showAni 0.5s;
+}
+@keyframes  showAni  {
+	0%{
+		opacity: 0;
+		transform: rotateX(90deg);
+	}
+	
+	100%{
+		opacity: 1;
+		transform: scale(1,1);
+		transform: rotateX(0);
+	}
+}
+
+.max{
+	position: absolute;
+	top: 0;
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	filter: brightness(50%);
+	z-index: 100;
+	pointer-events: none;
+	display: block;
+}
+.login{
+	margin-left: -300px;
+	margin-top: -200px;
+	top:50%;
+	left:50%;
+	position: absolute;
+	background-color: white;
+	width: 600px;
+	height: 360px;
+	text-align: center;
+	border-radius: 20px;
+	display: none;
+	z-index: 100;
+}
+.login div {
+	padding-top: 20px;
+}
+.login input{
+	width: 270px;
+	height: 40px;
+	font-size: 16px;
+	border: 1px solid gainsboro;
+	border-radius: 8px;
+}
+#div1{
+	padding-top: 50px;
+	margin-right: 15px;
+}
+.sub>button{
+	background-color: orange;
+	border: none;
+	width: 100px;
+	height: 42px;
+	border-radius: 5px;
+	
+}
+.sub>button>a{
+	display: block;
+	color: white;
+	font-size: 18px;
+}
+.guanbi{
+	display: block;
+	color: #000000;
+	margin-left: 535px;
+	margin-top: 10px;
+}
+
+.box{
+	position: relative;
+	width: 1240px;
+	height: 600px;
+	left: 50%;
+	margin-left: -620px;
+	border:0;
+}
+.bbox{
+	width: 1240px;
+	height: 540px;
+	overflow: hidden;
+}
+.content{
+	transition: all 0.2s;
+}
+.nav{
+	width: 1240px;
+	height: 56px;
+	background-color: rgb(38,188,213);
+	display: flex;
+}
+.nav li a{
+	display: block;
+	width: 145px;
+	height: 56px;
+	font-size: 10px;
+	padding-top: 15px;
+	font-size: 20px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.on{
+	background-color: #15abc4;
+}
+.content{
+	display: flex;
+}
+.pic1 img{
+	width: 1240px;
+	height: 550px;
+}
+.pic2 img{
+	width: 1240px;
+	height: 550px;
+}
+.pic3 img{
+	width: 1240px;
+	height: 550px;
+}
+
+.phone1{
+	position: absolute;
+	width: 1240px;
+	left: 50%;
+	margin-left: -620px;
+	margin-top: 100px;
+}
+.phone2{
+	font-size: 35px;
+}
+.phone3{
+	display: flex;
+	flex-wrap: wrap;
+}
+.phone3 div{
+	margin-top: 10px;
+	background-color: #FFFFFF;
+	width: 250px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.phone3 div a{
+	text-align: center;
+}

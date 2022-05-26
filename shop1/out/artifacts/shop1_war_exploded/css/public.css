@@ -1,0 +1,28 @@
+ul,li,ol{
+list-style:none ;	
+}
+a{
+	text-decoration: none;
+}
+*{
+	margin: 0;
+	padding:0;
+	width: auto;
+	height: auto;
+}
+clears{
+	clear:both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+	overflow: hidden;
+}
+img{
+	border: none;
+}
+input,button,select,textarea{
+	vertical-align: middle;
+	outline: none;
+}
+/* border-radius: 10px;      圆角化背景 */
+/* filter: brightness(50%);     黑化薄膜 */
